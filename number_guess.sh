@@ -1,7 +1,7 @@
 #!/bin/bash
 # Esto es un comentario de prueba
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
-
+echo -e "\n--- Let's start the game! ---\n"
 echo "Enter your username:"
 read USERNAME
 # This is a comment 
