@@ -4,7 +4,7 @@ PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
 
 echo "Enter your username:"
 read USERNAME
-
+# This is a comment for testing purposes
 USER_ID=$($PSQL "SELECT user_id FROM users WHERE username='$USERNAME'")
 
 if [[ -z $USER_ID ]]; then
